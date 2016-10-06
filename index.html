@@ -1,1 +1,193 @@
-PiDeck.com
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style>
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+.header {
+    padding-top: 38px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.org-header-wrapper .flex-table-item-primary {
+    padding-left: 20px;
+    padding-right: 400px;
+    white-space: normal;
+    width: 99%;
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.flex-table {
+    display: table;
+}
+
+.orghead {
+    padding-top: 20px;
+    padding-bottom: 0;
+    color: #666;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+}
+
+.org-name {
+    font-weight: 400;
+    color: #333;
+    line-height: 1.25 !important;
+    font-size: 32px;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.org-description {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.org-header-meta {
+  font-size: 12px;
+  line-height: 1.5;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+.org-header-meta .octicon {
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+    color: #ccc;
+    vertical-align: text-bottom;
+}
+
+.octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+}
+
+.org-header-meta.has-blog.has-location .meta-item {
+    max-width: 278px;
+    display: inline-block;
+    max-width: 100%;
+    padding-right: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+</style>
+    
+    <title>PiDeck</title>
+<meta name="description" content="Putting embedded GNU/Linux and open source into turntables since 2016."> 
+  </head>
+  
+  <body>
+ 
+ <div class="header"></div>
+ 
+<header class="orghead">
+  <div class="container">
+
+    <div class="flex-table org-header-wrapper mb-4">
+      <img alt="PiDeck" class="flex-table-item avatar" height="100" itemprop="image" src="pideck_logo.png" width="100" />
+      <div class="flex-table-item flex-table-item-primary">
+        <h1 class="org-name lh-condensed">
+          PiDeck
+        </h1>
+          <p class="org-description" itemprop="description">Putting embedded GNU/Linux and open source into turntables since 2016.</p>
+          <ul class="org-header-meta has-location has-blog">
+              <li class="meta-item">
+                <svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                <span itemprop="location" title="Where is the Isle of Wight?"><a href="https://en.wikipedia.org/wiki/Isle_of_Wight">Isle of Wight</a></span>
+              </li>
+              <li class="meta-item">
+                <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+                <a href="https://github.com/pideck" class="meta-link" itemprop="url" title="Hack PiDeck on GitHub">PiDeck on GitHub</a>
+              </li>
+              <li class="meta-item">
+                <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
+                <a href="https://www.youtube.com/channel/UCvOPtrseUvGzb9ut8ZvWFqg" class="meta-link" itemprop="url" title="Watch PiDeck on YouTube">PiDeck on YouTube</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+  <div class="container">
+  
+<h2>What?</h2>
+
+<p>PiDeck is digital music played old school.</p>
+
+<p>To use a PiDeck, plug in a USB stick containing audio files, select the track you want, and play the control record just as if it was analogue. That's all it does, the DJ skills are up to you. Pull out the USB stick and the next DJ can take over. We wanted to make a system which was simple, accessible and fun. It's the <b>Joy of Decks</b>.&#8482;</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/epR50swm96o" frameborder="0" allowfullscreen></iframe>
+
+<p>PiDeck is an open source hardware and Free Software project retro-fitting the Raspberry Pi onto a turntable. The software is based on the armhf (ARM Hard Float) port of Debian GNU/Linux stable (jessie) and xwax. This software is built into a custom single-purpose distribution (using PDK), which you can hack on, or just download and put on a micro SD card for your own Pi.</p>
+  
+<h2>Why?</h2>
+
+<p>Digital vinyl systems are useful because they save you carrying heavy boxes of rare and valuable vinyl from place to place. However, laptop-based digital vinyl systems are kind of complicated, often proprietary and incompatible, and require a lot of cables to be switched between DJ sets. Laptops are also hard to share between DJs, which makes turntablism less accessible for the kids who are just starting out. We're going to fix that.</p>
+
+<h2>How?</h2>
+
+<p>You will need:</p>
+
+<ol>
+	<li>A recent Raspberry Pi (only model 3 tested so far) and power supply</li>
+	<li>Touchscreen (single-touch is enough), or a HDMI monitor and keyboard</li>
+	<li>Stereo, full-duplex I<sup>2</sup>S or USB soundcard with a phono input stage, or line input and an external pre-amp</li>
+	<li>Micro SD card for the software</li>
+	<li>Control vinyl, Serato CV02 pressing recommended</li>
+	<li>USB stick containing your favourite music. FLAC 16-bit 44100Hz format is recommended</li>
+	<li>Non-automatic record player that can hold speed, with a clean, sharp stylus. It helps scratching if the headshell and arm are adjusted correctly</li>
+	<li>Slipmat, made from felt or neoprene</li>
+	<li>Sheet of wax paper from the kitchen drawer, to go under the slipmat</li>
+	<li>A beverage-proof case would be good. We're still working on that.</li>
+</ol>
+
+<h2>When?</h2>
+
+<p>Today. Go nuts!</p>
+
+<h2>Say hello?</h2>
+
+<p>Please contact us with technical questions via GitHub issues on the relevant repository, or email daniel at 64studio.com for all other enquiries. We love pull requests.</p>
+
+</div>
+
+</body></html>
