@@ -1,0 +1,120 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+.header {
+    padding-top: 38px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.org-header-wrapper .flex-table-item-primary {
+    padding-left: 20px;
+    padding-right: 400px;
+    white-space: normal;
+    width: 99%;
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.flex-table {
+    display: table;
+}
+
+.orghead {
+    padding-top: 20px;
+    padding-bottom: 0;
+    color: #666;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+}
+
+.org-name {
+    font-weight: 400;
+    color: #333;
+    line-height: 1.25 !important;
+    font-size: 32px;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.org-description {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.org-header-meta {
+    font-size: 12px;
+    line-height: 1.5;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.org-header-meta .octicon {
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+    color: #ccc;
+    vertical-align: text-bottom;
+}
+
+.octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+}
+
+.org-header-meta.has-blog.has-location .meta-item {
+    max-width: 278px;
+    display: inline-block;
+    max-width: 100%;
+    padding-right: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.site-footer {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+    border-top: 1px solid #eee;
+}
+
+a {
+  text-decoration: none;
+  color: #4078c0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(102, 102, 102);
+}
